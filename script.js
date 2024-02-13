@@ -149,9 +149,9 @@ function drawText() {
         context.fillStyle = `rgba(200, 0, 0, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["...i potiče me na razmišljanje koliko sam sretan što si moja i koliko te ustvari volim..."], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["...i potiče me na razmišljanje koliko sam sretan što si moja..."], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("...i potiče me na razmišljanje koliko sam sretan što si moja i koliko te ustvari volim...", canvas.width/2, canvas.height/2);
+            context.fillText("...i potiče me na razmišljanje koliko sam sretan što si moja...", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
@@ -160,9 +160,9 @@ function drawText() {
         context.fillStyle = `rgba(200, 0, 0, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["...i potiče me na razmišljanje koliko sam sretan što si moja i koliko te ustvari volim..."], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["...i potiče me na razmišljanje koliko sam sretan što si moja..."], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("...i potiče me na razmišljanje koliko sam sretan što si moja i koliko te ustvari volim...", canvas.width/2, canvas.height/2);
+            context.fillText("...i potiče me na razmišljanje koliko sam sretan što si moja...", canvas.width/2, canvas.height/2);
         }
         
         opacity = opacity - 0.01;
@@ -175,9 +175,9 @@ function drawText() {
         context.fillStyle = `rgba(200, 0, 0, ${opacity})`;
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["...Volim te puno Idy moja, više nego sve vrijeme i prostor u svemiru zajedno..."], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
+            drawTextWithLineBreaks(["...Volim te puno Idy moja..."], canvas.width / 2, canvas.height / 2, fontSize, lineHeight);
         } else {
-            context.fillText("...Volim te puno Idy moja, više nego sve vrijeme i prostor u svemiru zajedno...", canvas.width/2, canvas.height/2);
+            context.fillText("...Volim te puno Idy moja...", canvas.width/2, canvas.height/2);
         }
 
         opacity = opacity + 0.01;
@@ -188,9 +188,9 @@ function drawText() {
 
 
         if (window.innerWidth < 600) {
-            drawTextWithLineBreaks(["...i jedva čekam da provedem sve to vrijeme kako bih mogao da podijelim tu ljubav s tobom!"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
+            drawTextWithLineBreaks(["i jedva čekam da provedem vrijeme kako bih mogao da podijelim tu ljubav!"], canvas.width / 2, (canvas.height/2 + 60), fontSize, lineHeight);
         } else {
-            context.fillText("...i jedva čekam da provedem sve to vrijeme kako bih mogao da podijelim tu ljubav s tobom!", canvas.width/2, (canvas.height/2 + 50));
+            context.fillText("i jedva čekam da provedem vrijeme sa tobom i da dijelimo tu ljubav!", canvas.width/2, (canvas.height/2 + 50));
         }
 
         secondOpacity = secondOpacity + 0.01;
