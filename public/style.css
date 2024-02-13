@@ -1,0 +1,35 @@
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+  cursor: url('./images/pointer.png'), auto;
+}
+
+canvas {
+  width: 100%;
+  height: auto;
+  background: #000;
+}
+
+#valentinesButton {
+  display: none;
+  position: absolute;
+  background-color: rgb(200,0,0);
+  border: 2px solid rgb(200,0,0);
+  color: #fff;
+  cursor: pointer;
+  height: 50px;
+  font-size: 16px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-radius: 10px;
+  top: calc(50% + 150px); /* Adjust based on canvas height and text position */
+  left: 50%;
+  transform: translateX(-50%);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  box-shadow: 0 0 10px 5px rgba(200,0,0,0.5); /* Adjust the spread and color as needed */
+}
+
+#valentinesButton:hover {
+  background-color: rgb(200,0,0);
+  color: #eee;
+}
