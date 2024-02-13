@@ -77,7 +77,7 @@ function drawText() {
 
     if(frameNumber < 250){
         context.fillStyle = `rgba(200, 0, 0, ${opacity})`;
-        context.fillText("Svaki dan ne mogu vjerovati koliko sam ustvari sretan.", canvas.width/2, canvas.height/2);
+        context.fillText("Svaki dan ne mogu vjerovati koliko sam ustvari sretan...", canvas.width/2, canvas.height/2);
         opacity = opacity + 0.01;
     }
     //fades out the text by decreasing the opacity
@@ -119,12 +119,12 @@ function drawText() {
     }
     if(frameNumber > 1000 && frameNumber < 1250){
         context.fillStyle = `rgba(200, 0, 0, ${opacity})`;
-        context.fillText("...da sam živ, i da imam šansu provoditi ovaj život s tobom...", canvas.width/2, canvas.height/2);
+        context.fillText("...da smo živi u isto vrijeme, i da provodim ovaj život s tobom...", canvas.width/2, canvas.height/2);
         opacity = opacity + 0.01;
     }
     if(frameNumber >= 1250 && frameNumber < 1500){
         context.fillStyle = `rgba(200, 0, 0, ${opacity})`;
-        context.fillText("...da sam živ, i da imam šansu provoditi ovaj život s tobom...", canvas.width/2, canvas.height/2);
+        context.fillText("...da smo živi u isto vrijeme, i da provodim ovaj život s tobom...", canvas.width/2, canvas.height/2);
         opacity = opacity - 0.01;
     }
 
@@ -198,7 +198,7 @@ function drawText() {
 
     if(frameNumber >= 3000 && frameNumber < 99999){
         context.fillStyle = `rgba(200, 0, 0, ${thirdOpacity})`;
-        context.fillText("Sretan ti 14. februar odnosno 8. mart :D Voli te tvoj Ricky <3", canvas.width/2, (canvas.height/2 + 120));
+        context.fillText("Sretan ti 14. februar baby", canvas.width/2, (canvas.height/2 + 120));
         thirdOpacity = thirdOpacity + 0.01;
 
         button.style.display = "block";
